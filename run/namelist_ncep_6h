@@ -1,0 +1,21 @@
+&namelist_for_track_AB
+    yr_str_ref    =   1948
+    yr_end_ref    =   2014
+    start_date    =   1948010100
+    end_date      =   2014123118
+    num_lon       =   144
+    num_lat       =   73
+    mean_pv_fi    =   "/nfs9/home/hwy/track_AB_general/data_in/ncep_6h/pv_1948_2014.nc"
+    pv_fi         =   "/nfs9/home/hwy/track_AB_general/data_in/ncep_6h/pv_anom_1948_2014.nc"
+    out_dir       =   "/nfs9/home/hwy/track_AB_general/data_out/ncep_6h/" 
+    if_daily      =   .false.
+    if_has_leap   =   .true.
+    if_anomaly    =   .true.  
+    if_defined_overlap_ratio    =   .true.
+    overlap_ratio   =   0.7
+    apv_cr        =   -1.2
+    area_cr       =   1.8   
+    lon_name      =   "lon"
+    lat_name      =   "lat"
+    pv_name       =   "pv"
+/

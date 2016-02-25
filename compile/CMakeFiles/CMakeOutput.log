@@ -1,0 +1,198 @@
+The system is: Darwin - 14.0.0 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/local/bin/gfortran 
+Build flags: 
+Id flags: -v
+
+The output was:
+0
+驱动： /usr/local/bin/gfortran -mmacosx-version-min=10.10.0 -v CMakeFortranCompilerId.F -l gfortran -shared-libgcc
+使用内建 specs。
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/lto-wrapper
+目标：x86_64-apple-darwin14
+配置为：../gcc-4.9.2/configure --prefix=/usr/local/gfortran --with-gmp=/opt/gcc-4.8 --enable-languages=c,c++,fortran,objc,obj-c++ --build=x86_64-apple-darwin14
+线程模型：posix
+gcc 版本 4.9.2 (GCC) 
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-shared-libgcc' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/var/folders/6_/stn7xlgd47z_gjk4f1jn8bkr0000gn/T//ccIAKRCn.f90 -quiet -v -D__DYNAMIC__ CMakeFortranCompilerId.F -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmacosx-version-min=10.10.0 -mtune=core2 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/finclude -o /var/folders/6_/stn7xlgd47z_gjk4f1jn8bkr0000gn/T//ccUdQ7iI.s
+GNU Fortran (GCC) 版本 4.9.2 (x86_64-apple-darwin14)
+	由 GNU C 版本 4.9.2 编译，GMP 版本 5.1.1，MPFR 版本 3.1.2，MPC 版本 1.0.1
+GGC 准则：--param ggc-min-expand=100 --param ggc-min-heapsize=131072
+忽略不存在的目录“/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../../x86_64-apple-darwin14/include”
+#include "..." 搜索从这里开始：
+#include <...> 搜索从这里开始：
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/finclude
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/include
+ /usr/local/include
+ /usr/local/gfortran/include
+ /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/include-fixed
+ /usr/include
+搜索列表结束。
+GNU Fortran (GCC) 版本 4.9.2 (x86_64-apple-darwin14)
+	由 GNU C 版本 4.9.2 编译，GMP 版本 5.1.1，MPFR 版本 3.1.2，MPC 版本 1.0.1
+GGC 准则：--param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -force_cpusubtype_ALL -o /var/folders/6_/stn7xlgd47z_gjk4f1jn8bkr0000gn/T//ccrncQ8j.o /var/folders/6_/stn7xlgd47z_gjk4f1jn8bkr0000gn/T//ccUdQ7iI.s
+从 /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../libgfortran.spec 读取 specs
+将 spec lib 重命名为 liborig
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/
+LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-shared-libgcc' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/collect2 -dynamic -arch x86_64 -macosx_version_min 10.10.0 -weak_reference_mismatches non-weak -o a.out -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../.. /var/folders/6_/stn7xlgd47z_gjk4f1jn8bkr0000gn/T//ccrncQ8j.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 4.9.2
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.10.0 -weak_reference_mismatches non-weak -o a.out -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../.. /var/folders/6_/stn7xlgd47z_gjk4f1jn8bkr0000gn/T//ccrncQ8j.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-242
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2
+	/usr/local/gfortran/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/3.4.3/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca12a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ca12a.dir/build.make CMakeFiles/cmTC_ca12a.dir/build
+Building Fortran object CMakeFiles/cmTC_ca12a.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran     -c /Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_ca12a.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_ca12a
+/usr/local/Cellar/cmake/3.4.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca12a.dir/link.txt --verbose=1
+/usr/local/bin/gfortran       CMakeFiles/cmTC_ca12a.dir/testFortranCompiler.f.o  -o cmTC_ca12a  
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ecab/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ecab.dir/build.make CMakeFiles/cmTC_1ecab.dir/build
+Building Fortran object CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o
+/usr/local/bin/gfortran     -c /usr/local/Cellar/cmake/3.4.3/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_1ecab
+/usr/local/Cellar/cmake/3.4.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ecab.dir/link.txt --verbose=1
+/usr/local/bin/gfortran    -v -Wl,-v   CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o  -o cmTC_1ecab   
+驱动： /usr/local/bin/gfortran -mmacosx-version-min=10.10.0 -v -Wl,-v CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o -o cmTC_1ecab -l gfortran -shared-libgcc
+使用内建 specs。
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/lto-wrapper
+目标：x86_64-apple-darwin14
+配置为：../gcc-4.9.2/configure --prefix=/usr/local/gfortran --with-gmp=/opt/gcc-4.8 --enable-languages=c,c++,fortran,objc,obj-c++ --build=x86_64-apple-darwin14
+线程模型：posix
+gcc 版本 4.9.2 (GCC) 
+从 /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../libgfortran.spec 读取 specs
+将 spec lib 重命名为 liborig
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-o' 'cmTC_1ecab' '-shared-libgcc' '-mtune=core2'
+COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/
+LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../:/usr/lib/
+COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-o' 'cmTC_1ecab' '-shared-libgcc' '-mtune=core2'
+ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/collect2 -dynamic -arch x86_64 -macosx_version_min 10.10.0 -weak_reference_mismatches non-weak -o cmTC_1ecab -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../.. -v CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 4.9.2
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.10.0 -weak_reference_mismatches non-weak -o cmTC_1ecab -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../.. -v CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-242
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-242
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
+Library search paths:
+	/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2
+	/usr/local/gfortran/lib
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1ecab/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ecab.dir/build.make CMakeFiles/cmTC_1ecab.dir/build]
+  ignore line: [Building Fortran object CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/local/bin/gfortran     -c /usr/local/Cellar/cmake/3.4.3/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_1ecab]
+  ignore line: [/usr/local/Cellar/cmake/3.4.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ecab.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gfortran    -v -Wl,-v   CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o  -o cmTC_1ecab   ]
+  ignore line: [驱动： /usr/local/bin/gfortran -mmacosx-version-min=10.10.0 -v -Wl,-v CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o -o cmTC_1ecab -l gfortran -shared-libgcc]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/lto-wrapper]
+  ignore line: [目标：x86_64-apple-darwin14]
+  ignore line: [配置为：../gcc-4.9.2/configure --prefix=/usr/local/gfortran --with-gmp=/opt/gcc-4.8 --enable-languages=c,c++,fortran,objc,obj-c++ --build=x86_64-apple-darwin14]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 4.9.2 (GCC) ]
+  ignore line: [从 /usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../libgfortran.spec 读取 specs]
+  ignore line: [将 spec lib 重命名为 liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-o' 'cmTC_1ecab' '-shared-libgcc' '-mtune=core2']
+  ignore line: [COMPILER_PATH=/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/]
+  ignore line: [LIBRARY_PATH=/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/:/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../../:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mmacosx-version-min=10.10.0' '-v' '-o' 'cmTC_1ecab' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/collect2 -dynamic -arch x86_64 -macosx_version_min 10.10.0 -weak_reference_mismatches non-weak -o cmTC_1ecab -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2 -L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../.. -v CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/gfortran/libexec/gcc/x86_64-apple-darwin14/4.9.2/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.10.0] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1ecab] ==> ignore
+    arg [-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2] ==> dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2]
+    arg [-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../..] ==> dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../..]
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_1ecab.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2;/usr/local/gfortran/lib;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [gcc_ext.10.5]
+  remove lib [gcc]
+  remove lib [gcc_ext.10.5]
+  remove lib [gcc]
+  remove lib [System]
+  collapse library dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2]
+  collapse library dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2/../../..] ==> [/usr/local/gfortran/lib]
+  collapse library dir [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2] ==> [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2]
+  collapse library dir [/usr/local/gfortran/lib] ==> [/usr/local/gfortran/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [gfortran;quadmath;m]
+  implicit dirs: [/usr/local/gfortran/lib/gcc/x86_64-apple-darwin14/4.9.2;/usr/local/gfortran/lib;/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80446/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_80446.dir/build.make CMakeFiles/cmTC_80446.dir/build
+Building Fortran object CMakeFiles/cmTC_80446.dir/testFortranCompilerF90.f90.o
+/usr/local/bin/gfortran     -c /Users/hwy_pro/git_saves/calc_APV_blocking/compile/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_80446.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_80446
+/usr/local/Cellar/cmake/3.4.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80446.dir/link.txt --verbose=1
+/usr/local/bin/gfortran       CMakeFiles/cmTC_80446.dir/testFortranCompilerF90.f90.o  -o cmTC_80446  
+
+
